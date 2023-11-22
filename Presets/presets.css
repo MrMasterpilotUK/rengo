@@ -1,10 +1,32 @@
-nav {
-    font-family: 'Gotham-Medium';
-    font-size: 24;
-    font-weight: 400;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-    color: yellow;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the header element */
+header {
+    background-color: #f4f4f4;
+    padding: 15px 0;
+}
+
+/* Styling the nav element */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+/* Styling the nav links */
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Styling the active link */
+nav ul li a:hover {
+    color: #444;
 }
 
 @font-face {

@@ -1,0 +1,136 @@
+.in-construction {
+    background-color: #111827;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.in-construction .overlap-group-wrapper {
+    background-color: #111827;
+    width: 1920px;
+    height: 1080px;
+}
+
+.in-construction .overlap-group {
+    position: relative;
+    height: 1080px;
+    background-image: url(./img/group-2.svg);
+    background-size: 100% 100%;
+}
+
+.in-construction .text-wrapper {
+    position: absolute;
+    top: 52px;
+    left: 55px;
+    font-family: "Goldman-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 54px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.in-construction .vector {
+    position: absolute;
+    width: 736px;
+    height: 455px;
+    top: 257px;
+    left: 555px;
+}
+
+.in-construction .we-re-currently {
+    position: absolute;
+    top: 742px;
+    left: 355px;
+    font-family: "Gotham-Medium", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 67px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.in-construction .span {
+    font-weight: 500;
+}
+
+.in-construction .text-wrapper-2 {
+    font-family: "Goldman-Regular", Helvetica;
+}
+
+.in-construction .overlap {
+    position: absolute;
+    width: 230px;
+    height: 43px;
+    top: 878px;
+    left: 845px;
+    background-color: #0b101c;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px #070b15;
+}
+
+.in-construction .div {
+    position: absolute;
+    top: 13px;
+    left: 52px;
+    font-family: "Gotham-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.in-construction .p {
+    position: absolute;
+    width: 907px;
+    top: 822px;
+    left: 511px;
+    font-family: "Gotham-Book", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('/Fonts/Gotham-Bold.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gotham-BoldItalic';
+    src: url('/Fonts/Gotham-BoldItalic.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('/Fonts/Gotham-Light.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('/Fonts/Gotham-Medium.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gotham-NarrowBook';
+    src: url('/Fonts/Gotham-NarrowBook.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gotham-Regular';
+    src: url('/Fonts/Gotham-Regular.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gotham-UltraItalic';
+    src: url('/Fonts/Gotham-UltraItalic.woff2') format('woff2'),
+}
