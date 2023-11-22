@@ -15,20 +15,16 @@
 .in-construction .overlap-group {
     position: relative;
     height: 1080px;
-    background-image: url(./img/group-2.svg);
+    background-image: url(/Build/BUILDBACK.svg);
     background-size: 100% 100%;
 }
 
-.in-construction .text-wrapper {
+.in-construction .rengo {
     position: absolute;
-    top: 52px;
-    left: 55px;
-    font-family: "Goldman-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 54px;
-    letter-spacing: 0;
-    line-height: normal;
+    width: 176px;
+    height: 41px;
+    top: 70px;
+    left: 59px;
 }
 
 .in-construction .vector {
@@ -39,26 +35,18 @@
     left: 555px;
 }
 
-.in-construction .we-re-currently {
-    position: absolute;
+.in-construction .text-wrapper {
     top: 742px;
-    left: 355px;
-    font-family: "Gotham-Medium", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
+    left: 479px;
+    font-family: "Gotham-Medium";
+    font-weight: 500;
     font-size: 67px;
+    white-space: nowrap;
+    position: absolute;
+    color: #ffffff;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
-    white-space: nowrap;
-}
-
-.in-construction .span {
-    font-weight: 500;
-}
-
-.in-construction .text-wrapper-2 {
-    font-family: "Goldman-Regular", Helvetica;
 }
 
 .in-construction .overlap {
@@ -87,50 +75,15 @@
 }
 
 .in-construction .p {
-    position: absolute;
     width: 907px;
     top: 822px;
     left: 511px;
     font-family: "Gotham-Book", Helvetica;
     font-weight: 400;
-    color: #ffffff;
     font-size: 17px;
+    position: absolute;
+    color: #ffffff;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
-}
-
-@font-face {
-    font-family: 'Gotham-Bold';
-    src: url('/Fonts/Gotham-Bold.woff2') format('woff2'),
-}
-
-@font-face {
-    font-family: 'Gotham-BoldItalic';
-    src: url('/Fonts/Gotham-BoldItalic.woff2') format('woff2'),
-}
-
-@font-face {
-    font-family: 'Gotham-Light';
-    src: url('/Fonts/Gotham-Light.woff2') format('woff2'),
-}
-
-@font-face {
-    font-family: 'Gotham-Medium';
-    src: url('/Fonts/Gotham-Medium.woff2') format('woff2'),
-}
-
-@font-face {
-    font-family: 'Gotham-NarrowBook';
-    src: url('/Fonts/Gotham-NarrowBook.woff2') format('woff2'),
-}
-
-@font-face {
-    font-family: 'Gotham-Regular';
-    src: url('/Fonts/Gotham-Regular.woff2') format('woff2'),
-}
-
-@font-face {
-    font-family: 'Gotham-UltraItalic';
-    src: url('/Fonts/Gotham-UltraItalic.woff2') format('woff2'),
 }
