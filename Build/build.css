@@ -87,3 +87,38 @@
     letter-spacing: 0;
     line-height: normal;
 }
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('/Fonts/Gotham-Bold.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gotham-BoldItalic';
+    src: url('/Fonts/Gotham-BoldItalic.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('/Fonts/Gotham-Light.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('/Fonts/Gotham-Medium.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gotham-NarrowBook';
+    src: url('/Fonts/Gotham-NarrowBook.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gotham-Regular';
+    src: url('/Fonts/Gotham-Regular.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gotham-UltraItalic';
+    src: url('/Fonts/Gotham-UltraItalic.woff2') format('woff2'),
+}
