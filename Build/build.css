@@ -15,7 +15,7 @@
 .in-construction .overlap-group {
     position: relative;
     height: 1080px;
-    background-image: url(/Build/BUILDBACK.svg);
+    background-image: url(Build/BUILDBACK.svg);
     background-size: 100% 100%;
 }
 
